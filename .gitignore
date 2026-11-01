@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Database and generated indexes
+database/*.db
+database/faiss_index/
+
+# Testing
+.pytest_cache/
+.coverage
